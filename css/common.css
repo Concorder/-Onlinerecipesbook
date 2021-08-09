@@ -293,8 +293,6 @@ main.policy_terms .noIndentation {
 	margin-bottom: 0;
 }
 
-/*********************************************   footer   */
-
 footer {
 	padding-top: 15px;
 	padding-bottom: 50px;
@@ -324,8 +322,156 @@ footer .links a {
 	padding-right: 7px;
 }
 
+footer .provider p {
+	color: #303030;
+	font-size: 11px;
+	text-align: center;
+	margin-top: 25px;
+}
+main .contactBox form {
+	/* height: 530px; */
+}
 
-/*********************************************************    Footer  */
+.ft-main {
+	display: flex;
+	padding: 1.25rem 1.875rem;
+	flex-wrap: wrap;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.ft-title {
+	color: #000;
+	font-size: 15px;
+	padding-bottom: 0.625rem;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+
+ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+li {
+	font-size: 12px;
+	margin-bottom: 5px;
+
+}
+
+li svg {
+	vertical-align: top;
+}
+
+li a {
+	color: rgb(104, 104, 104);
+
+}
+.footer-contact li a {
+	max-width: 85%;
+	display: inline-block;
+}
+footer .footer-contact svg {
+	margin-right: 3px;
+}
+footer .footer-contact a,
+footer .ft-main-item a
+
+{
+	text-decoration: none;
+}
+#size {
+	margin: 0 auto;
+	max-width: 270px;
+	min-width: 230px;
+	padding: 0 30px;
+}
+
+footer p {
+	font-size: 10px;
+
+	color: rgb(104, 104, 104);
+	padding-left: 10px;
+	padding-right: 10px;
+}
+footer svg {
+	height: 18px;
+	width: 18px;
+}
+
+.ft-main-item {
+	min-width: 10rem;
+	padding-bottom: 30px;
+}
+
+svg {
+	fill: #be1023;
+}
+
+#size {
+	max-width: 250px;
+	margin: 0 auto;
+}
+#size {
+	max-width: 270px;
+	min-width: 230px;
+	padding: 0 30px;
+
+}
+@media only screen and (max-width: 1155px) {
+	.footer-menu {order: 1}
+	.footer-contact {order: 2}
+	#main-item {order: 3; margin: 30px auto;}
+}
+
+
+@media only screen and (max-width: 425px) {
+	.ft-main {
+		justify-content: space-evenly;
+	}
+
+	footer .links {
+		display: block;
+		height: auto;
+	}
+
+	footer .links img {
+		padding-bottom: 30px;
+	}
+
+	.ft-main-item {
+		min-width: 320px;
+		margin-left: 0;
+	}
+	li {
+		font-size: 12px;
+		margin: 0 20px 15px 0;
+		display: inline-block;
+	}
+	#size{max-width: unset; padding: 0}
+
+}
+
+@media only screen and (min-width: 1240px) {
+
+	.ft-main {
+		justify-content: space-evenly;
+		max-width: fit-content;
+	}
+
+	footer .links {
+		display: block;
+		height: auto;
+	}
+
+	footer .links img {
+		padding-top: 10px;
+		padding-bottom: 30px;
+	}
+}
+
+/*********************************************************	Footer  */
 
 
 @media all and (max-width: 980px) {
