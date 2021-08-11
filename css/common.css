@@ -544,6 +544,7 @@ svg {
 		font-size: 18px;
 		font-weight: 600;
 	}
+
 	::-webkit-input-placeholder { /* Chrome/Opera/Safari */
 		color: #999;
 		font-size: 14px;

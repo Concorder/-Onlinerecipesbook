@@ -1,5 +1,5 @@
 $(function() {
-function clickLogin(myOpen) {
+        function clickLogin(myOpen) {
         if (document.getElementsByTagName('header').length) {
         var obj = document.getElementsByTagName('header')[0];
         var obj2=document.getElementsByClassName('userButton');
