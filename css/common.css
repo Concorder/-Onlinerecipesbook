@@ -222,6 +222,7 @@ header .container .logOutUser a {
 
 header .container .userButton {
 	width: 43px;
+	margin-right: 10px;
 	height: 100%;
 	display: block;
 	float: right;
